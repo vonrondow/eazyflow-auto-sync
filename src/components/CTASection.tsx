@@ -45,16 +45,16 @@ const CTASection = () => {
               <Calendar className="w-12 h-12 text-white mb-4 mx-auto" />
               <h3 className="text-2xl font-bold mb-4">Agende uma Demonstração</h3>
               <p className="text-white/80 mb-6">
-                Veja a EazyFlow em ação e descubra como ela pode transformar seu CRM
+                Já imaginou o tanto de dinheiro que você perdeu por alguém não fazer algo simples — atualizar o CRM?
               </p>
               <Button 
                 size="lg" 
                 className="w-full bg-white text-purple-700 hover:bg-gray-100 font-semibold py-4 text-lg"
               >
-                Agendar demonstração gratuita
+                Testar agora
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
-              <p className="text-xs text-white/60 mt-3">✨ Sem compromisso • 30 minutos</p>
+              <p className="text-xs text-white/60 mt-3">🚀 Ativação instantânea • 14 dias grátis</p>
             </CardContent>
           </Card>
         </div>

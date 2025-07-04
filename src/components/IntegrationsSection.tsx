@@ -23,6 +23,11 @@ const IntegrationsSection = () => {
       name: "Salesforce",
       description: "Suporte completo ao Salesforce",
       logo: "🔵"
+    },
+    {
+      name: "Outros CRMs",
+      description: "API flexível para qualquer CRM",
+      logo: "🔗"
     }
   ];
 
@@ -50,7 +55,7 @@ const IntegrationsSection = () => {
           {/* Integrations */}
           <div>
             <h3 className="text-2xl font-semibold mb-8">CRMs Suportados</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
               {integrations.map((integration, index) => (
                 <Card key={index} className="border border-purple-100 hover:border-purple-200 hover:shadow-lg transition-all duration-300">
                   <CardContent className="p-6 flex items-center gap-4">
@@ -63,9 +68,6 @@ const IntegrationsSection = () => {
                 </Card>
               ))}
             </div>
-            <p className="text-muted-foreground">
-              E integra com quaisquer outros CRMs através de nossa API flexível
-            </p>
           </div>
 
           {/* Features */}

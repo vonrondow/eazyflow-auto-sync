@@ -25,26 +25,35 @@ const HeroSection = () => {
           <span className="gradient-text">preenche sozinho</span>
         </h1>
 
-        {/* Subheadline */}
+        {/* Subheadline with bullet points */}
         <div className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-4xl mx-auto leading-relaxed animate-fade-in delay-200">
-          <p className="mb-4">
-            Já imaginou o quanto de dinheiro você perdeu por conta do CRM não estar atualizado/atualizado sem qualidade?
+          <p className="text-2xl md:text-3xl font-semibold text-foreground mb-6">
+            Quanto dinheiro você já perdeu por causa de um CRM mal preenchido?
           </p>
-          <p className="mb-4">
-            Time de Marketing demorando semanas para descobrir que estava enviando leads ruins
-          </p>
-          <p className="mb-4">
-            Vendedores que vendiam bem, mas os dados não condizem
-          </p>
-          <p>
-            Tempo em que o vendedor poderia estar vendendo
-          </p>
+          <div className="space-y-4 text-lg md:text-xl">
+            <div className="flex items-start gap-3">
+              <div className="w-2 h-2 bg-purple-500 rounded-full mt-3 flex-shrink-0"></div>
+              <p>Seu time de marketing levou semanas para perceber que os leads eram ruins.</p>
+            </div>
+            <div className="flex items-start gap-3">
+              <div className="w-2 h-2 bg-purple-500 rounded-full mt-3 flex-shrink-0"></div>
+              <p>Vendedores que estavam performando bem… mas os dados diziam o contrário.</p>
+            </div>
+            <div className="flex items-start gap-3">
+              <div className="w-2 h-2 bg-purple-500 rounded-full mt-3 flex-shrink-0"></div>
+              <p>Horas preciosas perdidas preenchendo CRM, em vez de vender.</p>
+            </div>
+          </div>
+          <div className="mt-8 text-xl md:text-2xl">
+            <p className="font-semibold text-foreground">O problema não é seu time.</p>
+            <p className="font-semibold text-foreground">O problema é o processo manual.</p>
+          </div>
         </div>
 
         {/* CTA button */}
         <div className="flex justify-center items-center animate-fade-in delay-400">
           <Button size="lg" className="px-8 py-6 text-lg font-semibold gradient-purple border-0 hover:shadow-2xl hover:scale-105 transition-all duration-300">
-            Começar agora
+            Testar agora
             <ArrowRight className="ml-2 w-5 h-5" />
           </Button>
         </div>
