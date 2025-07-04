@@ -1,6 +1,6 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { ArrowRight, Bot, Database, Sparkles } from "lucide-react";
+import { Bot, Database, Sparkles } from "lucide-react";
 
 const AutomationDemo = () => {
   return (
@@ -11,7 +11,7 @@ const AutomationDemo = () => {
             Como a <span className="gradient-text">automação</span> funciona
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Nossa IA inteligente trabalha 24/7 para manter seu CRM sempre atualizado
+            Nossa automação inteligente trabalha 24/7 para manter seu CRM sempre atualizado
           </p>
         </div>
 
@@ -31,17 +31,12 @@ const AutomationDemo = () => {
                 </span>
               </div>
               
-              <h3 className="text-xl font-semibold mb-3">IA Detecta Dados</h3>
+              <h3 className="text-xl font-semibold mb-3">Detecta Dados</h3>
               <p className="text-muted-foreground">
-                Nossa IA monitora e identifica automaticamente novos leads, interações e oportunidades
+                Nossa automação monitora e identifica automaticamente novos leads, interações e oportunidades
               </p>
             </CardContent>
           </Card>
-
-          {/* Arrow */}
-          <div className="hidden lg:flex justify-center">
-            <ArrowRight className="w-12 h-12 text-primary animate-pulse" />
-          </div>
 
           {/* Step 2 */}
           <Card className="border-0 shadow-lg bg-white/80 backdrop-blur-sm">
@@ -64,11 +59,6 @@ const AutomationDemo = () => {
               </p>
             </CardContent>
           </Card>
-
-          {/* Arrow */}
-          <div className="hidden lg:flex justify-center">
-            <ArrowRight className="w-12 h-12 text-primary animate-pulse" />
-          </div>
 
           {/* Step 3 */}
           <Card className="border-0 shadow-lg bg-white/80 backdrop-blur-sm">

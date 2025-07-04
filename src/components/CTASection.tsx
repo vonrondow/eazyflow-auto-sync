@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { ArrowRight, Calendar, Play, CheckCircle } from "lucide-react";
+import { ArrowRight, Calendar, CheckCircle } from "lucide-react";
 
 const CTASection = () => {
   const benefits = [
@@ -38,9 +38,8 @@ const CTASection = () => {
           ))}
         </div>
 
-        {/* CTA Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          {/* Demo CTA */}
+        {/* Single CTA */}
+        <div className="max-w-2xl mx-auto">
           <Card className="border-0 bg-white/10 backdrop-blur-sm hover:bg-white/15 transition-all duration-300">
             <CardContent className="p-8 text-center">
               <Calendar className="w-12 h-12 text-white mb-4 mx-auto" />
@@ -56,26 +55,6 @@ const CTASection = () => {
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
               <p className="text-xs text-white/60 mt-3">✨ Sem compromisso • 30 minutos</p>
-            </CardContent>
-          </Card>
-
-          {/* Trial CTA */}
-          <Card className="border-0 bg-white/10 backdrop-blur-sm hover:bg-white/15 transition-all duration-300">
-            <CardContent className="p-8 text-center">
-              <Play className="w-12 h-12 text-white mb-4 mx-auto" />
-              <h3 className="text-2xl font-bold mb-4">Teste Grátis Agora</h3>
-              <p className="text-white/80 mb-6">
-                Comece sua avaliação gratuita e veja os resultados em poucos dias
-              </p>
-              <Button 
-                variant="outline" 
-                size="lg" 
-                className="w-full border-white/30 bg-transparent text-white hover:bg-white/10 font-semibold py-4 text-lg"
-              >
-                Começar teste gratuito
-                <ArrowRight className="ml-2 w-5 h-5" />
-              </Button>
-              <p className="text-xs text-white/60 mt-3">🚀 Ativação instantânea • 14 dias grátis</p>
             </CardContent>
           </Card>
         </div>
