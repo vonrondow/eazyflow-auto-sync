@@ -53,7 +53,7 @@ const HeroSection = () => {
         {/* CTA button */}
         <div className="flex justify-center items-center animate-fade-in delay-400">
           <Button size="lg" className="px-8 py-6 text-lg font-semibold gradient-purple border-0 hover:shadow-2xl hover:scale-105 transition-all duration-300">
-            Testar agora
+            Quero entrar na lista de espera
             <ArrowRight className="ml-2 w-5 h-5" />
           </Button>
         </div>
