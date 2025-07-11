@@ -20,55 +20,55 @@ const HeroSection = () => {
         </div>
 
         {/* Main headline */}
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in leading-tight">
+        <h1 className="text-5xl md:text-7xl font-bold mb-8 animate-fade-in leading-tight">
           O CRM que se{" "}
           <span className="gradient-text">preenche sozinho</span>
         </h1>
 
-        {/* Problem statement with enhanced visual hierarchy */}
+        {/* Problem statement - simplified */}
         <div className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-4xl mx-auto leading-relaxed animate-fade-in delay-200">
-          <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-8 border border-purple-100 shadow-lg mb-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-red-600 mb-8 leading-tight">
+          <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 border border-border shadow-lg mb-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6 leading-tight">
               Quanto dinheiro você já perdeu por causa de um CRM mal preenchido?
             </h2>
             
-            {/* Problem points with icons and better spacing */}
-            <div className="space-y-6 text-lg md:text-xl text-left max-w-3xl mx-auto">
-              <div className="flex items-start gap-4 p-4 bg-red-50 rounded-xl border-l-4 border-red-500">
-                <TrendingDown className="w-6 h-6 text-red-500 mt-1 flex-shrink-0" />
-                <p className="text-gray-800 font-medium">
-                  <strong>Leads ruins</strong> que seu marketing não percebeu a tempo
+            {/* Problem points with icons */}
+            <div className="space-y-4 text-lg text-left max-w-3xl mx-auto">
+              <div className="flex items-start gap-3">
+                <TrendingDown className="w-5 h-5 text-muted-foreground mt-1 flex-shrink-0" />
+                <p className="text-muted-foreground">
+                  <strong className="text-foreground">Leads ruins</strong> que seu marketing não percebeu a tempo
                 </p>
               </div>
               
-              <div className="flex items-start gap-4 p-4 bg-red-50 rounded-xl border-l-4 border-red-500">
-                <Target className="w-6 h-6 text-red-500 mt-1 flex-shrink-0" />
-                <p className="text-gray-800 font-medium">
-                  Vendedores que estavam <strong>performando bem</strong>… mas os dados diziam o contrário
+              <div className="flex items-start gap-3">
+                <Target className="w-5 h-5 text-muted-foreground mt-1 flex-shrink-0" />
+                <p className="text-muted-foreground">
+                  Vendedores que estavam <strong className="text-foreground">performando bem</strong>… mas os dados diziam o contrário
                 </p>
               </div>
               
-              <div className="flex items-start gap-4 p-4 bg-red-50 rounded-xl border-l-4 border-red-500">
-                <Clock className="w-6 h-6 text-red-500 mt-1 flex-shrink-0" />
-                <p className="text-gray-800 font-medium">
-                  <strong>Horas desperdiçadas</strong> digitando informações em vez de fechar negócios
+              <div className="flex items-start gap-3">
+                <Clock className="w-5 h-5 text-muted-foreground mt-1 flex-shrink-0" />
+                <p className="text-muted-foreground">
+                  <strong className="text-foreground">Horas desperdiçadas</strong> digitando informações em vez de fechar negócios
                 </p>
               </div>
             </div>
           </div>
 
-          {/* Solution statement with emphasis */}
-          <div className="bg-gradient-to-r from-purple-600 to-purple-700 text-white rounded-2xl p-8 shadow-xl">
-            <div className="space-y-3 text-xl md:text-2xl font-semibold">
+          {/* Solution statement */}
+          <div className="bg-gradient-to-r from-primary to-primary/80 text-white rounded-2xl p-6 shadow-xl">
+            <div className="space-y-2 text-lg md:text-xl font-semibold">
               <p className="opacity-90">O problema não são seus vendedores.</p>
-              <p className="text-yellow-300 text-2xl md:text-3xl font-bold">
+              <p className="text-xl md:text-2xl font-bold">
                 O problema é o processo manual.
               </p>
             </div>
           </div>
         </div>
 
-        {/* Enhanced CTA section */}
+        {/* CTA section */}
         <div className="animate-fade-in delay-400">
           <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 border border-purple-200 shadow-lg inline-block mb-4">
             <Button size="lg" className="px-10 py-6 text-xl font-bold gradient-purple border-0 hover:shadow-2xl hover:scale-105 transition-all duration-300 rounded-xl">
