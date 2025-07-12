@@ -20,8 +20,8 @@ const HeroSection = () => {
 
         {/* Main headline */}
         <h1 className="text-6xl md:text-8xl font-bold mb-8 animate-fade-in leading-[0.9]">
-          O CRM que se{" "}
-          <span className="gradient-text">preenche sozinho</span>
+          Preencha seu{" "}
+          <span className="gradient-text">CRM sozinho</span>
         </h1>
 
         {/* Problem statement - more direct and persuasive */}
@@ -57,9 +57,8 @@ const HeroSection = () => {
 
             {/* Solution statement - more impactful */}
             <div className="text-center">
-              <p className="text-xl text-muted-foreground mb-3">O problema não são seus vendedores.</p>
               <p className="text-3xl md:text-4xl font-bold text-primary">
-                Processo manual.
+                O problema não são seus vendedores… é o processo que ainda é manual.
               </p>
             </div>
           </div>
@@ -74,7 +73,7 @@ const HeroSection = () => {
             </Button>
           </div>
           <p className="text-lg text-muted-foreground font-semibold">
-            🚀 Ativação instantânea • Garantia de 30 dias
+            🚀 Garantia de 30 dias
           </p>
         </div>
       </div>

@@ -6,27 +6,27 @@ const BenefitsSection = () => {
   const benefits = [
     {
       icon: <Clock className="w-8 h-8 text-primary" />,
-      title: "Economize tempo",
-      description: "Vendedores recuperam até 10 horas por semana para focar no que realmente importa: vender.",
-      metric: "10h/semana"
+      title: "Decisões estratégicas precisas",
+      description: "Dados atualizados permitem forecasts confiáveis e decisões de investimento certeiras. Sem previsibilidade, você navega às cegas.",
+      metric: "Forecasting preciso"
     },
     {
       icon: <Target className="w-8 h-8 text-primary" />,
-      title: "Previsibilidade",
-      description: "Dados sempre atualizados garantem previsões precisas de vendas e pipeline confiável.",
-      metric: "99.9% precisão"
+      title: "Produtividade real da equipe",
+      description: "Vendedores focam no que sabem fazer: vender. Sem perder tempo com burocracia digital que drena energia e motivação.",
+      metric: "Mais vendas"
     },
     {
       icon: <TrendingUp className="w-8 h-8 text-primary" />,
-      title: "Motivação da equipe",
-      description: "Time mais engajado quando pode focar em vender em vez de preencher planilhas.",
-      metric: "+40% engajamento"
+      title: "Identificação de oportunidades",
+      description: "Padrões de comportamento revelam leads quentes e cross-sells. CRM desatualizado = dinheiro na mesa.",
+      metric: "Oportunidades visíveis"
     },
     {
       icon: <Shield className="w-8 h-8 text-primary" />,
-      title: "Dados confiáveis",
-      description: "IA elimina erros humanos e garante informações sempre atualizadas no seu CRM.",
-      metric: "100% automático"
+      title: "Relacionamento com cliente",
+      description: "Histórico completo permite atendimento personalizado. Cliente sente que você realmente o conhece.",
+      metric: "Experiência superior"
     }
   ];
 
@@ -38,7 +38,8 @@ const BenefitsSection = () => {
             Por que escolher a <span className="gradient-text">EazyFlow</span>?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Nossa IA revoluciona a forma como sua equipe gerencia dados no CRM
+            Como especialista em CRM, vejo empresas perdendo milhões por dados desatualizados. 
+            Um CRM bem mantido não é só organização - é estratégia competitiva.
           </p>
         </div>
 

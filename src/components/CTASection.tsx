@@ -5,10 +5,10 @@ import { ArrowRight, UserPlus, CheckCircle } from "lucide-react";
 
 const CTASection = () => {
   const benefits = [
-    "Setup em menos de 5 minutos",
     "Suporte técnico especializado",
     "Garantia de 30 dias",
-    "Sem compromisso de longo prazo"
+    "Sem compromisso de longo prazo",
+    "Implementação personalizada"
   ];
 
   return (
@@ -45,7 +45,7 @@ const CTASection = () => {
               <UserPlus className="w-12 h-12 text-white mb-4 mx-auto" />
               <h3 className="text-2xl font-bold mb-4">Entrar na lista de espera</h3>
               <p className="text-white/80 mb-6">
-                Seja um dos primeiros a revolucionar seu CRM com nossa automação inteligente
+                Revolucione seu CRM com nossa automação inteligente
               </p>
               <Button 
                 size="lg" 
@@ -54,7 +54,7 @@ const CTASection = () => {
                 Quero entrar na lista de espera
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
-              <p className="text-xs text-white/60 mt-3">🚀 Ativação instantânea • Garantia de 30 dias</p>
+              <p className="text-xs text-white/60 mt-3">🚀 Garantia de 30 dias</p>
             </CardContent>
           </Card>
         </div>
