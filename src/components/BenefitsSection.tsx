@@ -12,21 +12,21 @@ const BenefitsSection = () => {
     },
     {
       icon: <Target className="w-8 h-8 text-primary" />,
-      title: "Dados precisos",
-      description: "IA elimina erros humanos e garante informações sempre atualizadas no seu CRM.",
+      title: "Previsibilidade",
+      description: "Dados sempre atualizados garantem previsões precisas de vendas e pipeline confiável.",
       metric: "99.9% precisão"
     },
     {
       icon: <TrendingUp className="w-8 h-8 text-primary" />,
-      title: "Mais conversões",
-      description: "Decisões mais inteligentes baseadas em dados reais aumentam sua taxa de fechamento.",
-      metric: "+35% vendas"
+      title: "Motivação da equipe",
+      description: "Time mais engajado quando pode focar em vender em vez de preencher planilhas.",
+      metric: "+40% engajamento"
     },
     {
       icon: <Shield className="w-8 h-8 text-primary" />,
-      title: "Segurança total",
-      description: "Conformidade com LGPD e criptografia de ponta a ponta para proteger seus dados.",
-      metric: "LGPD OK"
+      title: "Dados confiáveis",
+      description: "IA elimina erros humanos e garante informações sempre atualizadas no seu CRM.",
+      metric: "100% automático"
     }
   ];
 

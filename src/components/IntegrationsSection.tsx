@@ -35,8 +35,7 @@ const IntegrationsSection = () => {
     "Sincronização em tempo real",
     "Configuração em menos de 5 minutos", 
     "Backup automático de dados",
-    "API robusta e confiável",
-    "Conformidade com LGPD"
+    "API robusta e confiável"
   ];
 
   return (
@@ -72,7 +71,7 @@ const IntegrationsSection = () => {
 
           {/* Features */}
           <div>
-            <h3 className="text-2xl font-semibold mb-8">Por que nossa integração é diferente?</h3>
+            <h3 className="text-2xl font-semibold mb-8">Vantagens da nossa integração</h3>
             <div className="space-y-4">
               {features.map((feature, index) => (
                 <div key={index} className="flex items-center gap-3">
@@ -89,10 +88,10 @@ const IntegrationsSection = () => {
               <CardContent className="p-6">
                 <div className="flex items-center gap-3 mb-2">
                   <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                  <span className="font-semibold text-foreground">Certificação LGPD</span>
+                  <span className="font-semibold text-foreground">Garantia de 30 dias</span>
                 </div>
                 <p className="text-sm text-muted-foreground">
-                  Seus dados estão seguros e em conformidade com a Lei Geral de Proteção de Dados
+                  Teste sem compromisso com garantia total de reembolso
                 </p>
               </CardContent>
             </Card>

@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { ArrowRight, Calendar, CheckCircle } from "lucide-react";
+import { ArrowRight, UserPlus, CheckCircle } from "lucide-react";
 
 const CTASection = () => {
   const benefits = [
@@ -25,7 +25,7 @@ const CTASection = () => {
         </h2>
         
         <p className="text-xl md:text-2xl opacity-90 mb-12 max-w-4xl mx-auto">
-          Junte-se a centenas de empresas que já economizam tempo e aumentam vendas com a EazyFlow
+          Já imaginou o tanto de dinheiro que você perdeu por alguém não fazer algo simples: "atualizar o CRM"?
         </p>
 
         {/* Benefits grid */}
@@ -42,10 +42,10 @@ const CTASection = () => {
         <div className="max-w-2xl mx-auto">
           <Card className="border-0 bg-white/10 backdrop-blur-sm hover:bg-white/15 transition-all duration-300">
             <CardContent className="p-8 text-center">
-              <Calendar className="w-12 h-12 text-white mb-4 mx-auto" />
-              <h3 className="text-2xl font-bold mb-4">Agende uma Demonstração</h3>
+              <UserPlus className="w-12 h-12 text-white mb-4 mx-auto" />
+              <h3 className="text-2xl font-bold mb-4">Entrar na lista de espera</h3>
               <p className="text-white/80 mb-6">
-                Já imaginou o tanto de dinheiro que você perdeu por alguém não fazer algo simples — atualizar o CRM?
+                Seja um dos primeiros a revolucionar seu CRM com nossa automação inteligente
               </p>
               <Button 
                 size="lg" 
@@ -54,16 +54,9 @@ const CTASection = () => {
                 Quero entrar na lista de espera
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
-              <p className="text-xs text-white/60 mt-3">🚀 Ativação instantânea • 14 dias grátis</p>
+              <p className="text-xs text-white/60 mt-3">🚀 Ativação instantânea • Garantia de 30 dias</p>
             </CardContent>
           </Card>
-        </div>
-
-        {/* Security notice */}
-        <div className="mt-12 text-center">
-          <p className="text-white/70 text-sm">
-            🔒 Dados protegidos por criptografia de nível bancário • Conformidade LGPD garantida
-          </p>
         </div>
       </div>
     </section>
