@@ -56,25 +56,22 @@ const HeroSection = () => {
             </div>
 
             {/* Solution statement - more impactful */}
-            <div className="text-center">
-              <p className="text-3xl md:text-4xl font-bold text-primary">
+            <div className="text-center mb-8">
+              <p className="text-3xl md:text-4xl font-bold text-primary mb-8">
                 O problema não são seus vendedores… é o processo que ainda é manual.
               </p>
+              
+              {/* CTA logo após a frase de impacto */}
+              <div className="animate-fade-in delay-400">
+                <div className="bg-gradient-to-r from-primary to-primary/90 rounded-3xl p-8 shadow-2xl inline-block">
+                  <Button size="lg" className="px-12 py-8 text-2xl font-bold bg-white text-primary hover:bg-gray-50 border-0 hover:shadow-2xl hover:scale-105 transition-all duration-300 rounded-2xl">
+                    Quero entrar na lista de espera
+                    <ArrowRight className="ml-3 w-7 h-7" />
+                  </Button>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-
-        {/* CTA section - more prominent */}
-        <div className="animate-fade-in delay-400">
-          <div className="bg-gradient-to-r from-primary to-primary/90 rounded-3xl p-8 shadow-2xl inline-block mb-6">
-            <Button size="lg" className="px-12 py-8 text-2xl font-bold bg-white text-primary hover:bg-gray-50 border-0 hover:shadow-2xl hover:scale-105 transition-all duration-300 rounded-2xl">
-              Quero entrar na lista de espera
-              <ArrowRight className="ml-3 w-7 h-7" />
-            </Button>
-          </div>
-          <p className="text-lg text-muted-foreground font-semibold">
-            🚀 Garantia de 30 dias
-          </p>
         </div>
       </div>
     </section>

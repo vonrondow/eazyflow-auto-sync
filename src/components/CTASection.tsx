@@ -51,10 +51,9 @@ const CTASection = () => {
                 size="lg" 
                 className="w-full bg-white text-purple-700 hover:bg-gray-100 font-semibold py-4 text-lg"
               >
-                Quero entrar na lista de espera
+                Quero entrar na lista de espera • 🚀 Garantia de 30 dias
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
-              <p className="text-xs text-white/60 mt-3">🚀 Garantia de 30 dias</p>
             </CardContent>
           </Card>
         </div>

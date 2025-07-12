@@ -1,6 +1,7 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { Search, Bot, Layers, Database } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Search, Bot, Layers, Database, ArrowRight } from "lucide-react";
 
 const AutomationDemo = () => {
   return (
@@ -103,6 +104,22 @@ const AutomationDemo = () => {
               </p>
             </CardContent>
           </Card>
+        </div>
+
+        {/* CTA após os 4 passos */}
+        <div className="mt-16 text-center">
+          <div className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 border border-purple-100 shadow-xl max-w-2xl mx-auto">
+            <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
+              Pronto para mapear sua jornada?
+            </h3>
+            <p className="text-muted-foreground mb-6 text-lg">
+              Vamos analisar seu processo atual e desenhar a automação perfeita para seu CRM
+            </p>
+            <Button size="lg" className="px-8 py-6 text-lg font-semibold">
+              Mapear jornada do cliente
+              <ArrowRight className="ml-2 w-5 h-5" />
+            </Button>
+          </div>
         </div>
       </div>
     </section>
