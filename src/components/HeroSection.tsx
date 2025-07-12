@@ -1,6 +1,5 @@
-
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Zap, AlertTriangle, Clock, Target } from "lucide-react";
+import { ArrowRight, Zap, AlertTriangle, Clock, Target, TrendingDown } from "lucide-react";
 
 const HeroSection = () => {
   return (
