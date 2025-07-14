@@ -68,7 +68,7 @@ const HeroSection = () => {
                     Quero entrar na lista de espera
                     <ArrowRight className="ml-3 w-7 h-7" />
                   </Button>
-                  <p className="text-lg text-white/90 font-semibold mt-4">
+                  <p className="text-lg text-primary-foreground/90 font-semibold mt-4">
                     🚀 Garantia de 30 dias
                   </p>
                 </div>
