@@ -57,8 +57,8 @@ const HeroSection = () => {
 
             {/* Solution statement - more impactful */}
             <div className="text-center mb-8">
-              <p className="text-3xl md:text-4xl font-bold text-primary mb-8">
-                O problema não são seus vendedores… é o processo que ainda é manual.
+              <p className="text-3xl md:text-4xl font-bold mb-8" style={{ color: '#5F28F6' }}>
+                O problema não é a preguiça dos vendedores… é o processo que ainda é manual.
               </p>
               
               {/* CTA logo após a frase de impacto */}

@@ -9,7 +9,7 @@ const FAQSection = () => {
   const faqs = [
     {
       question: "Quanto tempo leva para implementar a automação?",
-      answer: "O processo de mapeamento da jornada do cliente geralmente leva de 3 a 5 dias úteis. Após isso, a automação é configurada e começa a funcionar imediatamente."
+      answer: "O processo leva 15 dias para mapear a jornada e fazer implementação com o CRM. Após isso, a automação começa a funcionar imediatamente."
     },
     {
       question: "Funciona com qualquer CRM?",
@@ -21,7 +21,7 @@ const FAQSection = () => {
     },
     {
       question: "E se a IA preencher informações erradas?",
-      answer: "Temos um sistema de validação e você mantém controle total. Além disso, oferecemos garantia de 30 dias para ajustes e melhorias."
+      answer: "Temos um sistema de agentes para monitorar os erros."
     },
     {
       question: "Preciso treinar minha equipe?",
@@ -34,7 +34,7 @@ const FAQSection = () => {
   ];
 
   return (
-    <section className="py-20 px-4 bg-muted/30">
+    <section className="py-12 px-4 bg-muted/30">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">

@@ -5,7 +5,7 @@ import { Search, Bot, Layers, Database, ArrowRight } from "lucide-react";
 
 const AutomationDemo = () => {
   return (
-    <section className="py-20 px-4 bg-gradient-to-br from-purple-50 to-white">
+    <section className="py-12 px-4 bg-gradient-to-br from-purple-50 to-white">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
@@ -32,7 +32,7 @@ const AutomationDemo = () => {
                 </span>
               </div>
               
-              <h3 className="text-xl font-semibold mb-3">Mapeia Jornada</h3>
+              <h3 className="text-xl font-semibold mb-3">Mapear Jornada</h3>
               <p className="text-muted-foreground">
                 Entendemos o fluxo do seu cliente e as etapas do seu CRM
               </p>
@@ -54,7 +54,7 @@ const AutomationDemo = () => {
                 </span>
               </div>
               
-              <h3 className="text-xl font-semibold mb-3">Monitora Dados</h3>
+              <h3 className="text-xl font-semibold mb-3">Monitorar Dados</h3>
               <p className="text-muted-foreground">
                 Identifica automaticamente novos leads, interações e oportunidades
               </p>
@@ -76,7 +76,7 @@ const AutomationDemo = () => {
                 </span>
               </div>
               
-              <h3 className="text-xl font-semibold mb-3">Organiza Informações</h3>
+              <h3 className="text-xl font-semibold mb-3">Organizar Informações</h3>
               <p className="text-muted-foreground">
                 Estrutura e organiza os dados seguindo as regras do seu negócio
               </p>
@@ -98,7 +98,7 @@ const AutomationDemo = () => {
                 </span>
               </div>
               
-              <h3 className="text-xl font-semibold mb-3">Atualiza CRM</h3>
+              <h3 className="text-xl font-semibold mb-3">Atualizar CRM</h3>
               <p className="text-muted-foreground">
                 Preenche automaticamente seu CRM com dados precisos e organizados
               </p>

@@ -31,7 +31,7 @@ const BenefitsSection = () => {
   ];
 
   return (
-    <section className="py-20 px-4 bg-white">
+    <section className="py-12 px-4 bg-white">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
@@ -57,7 +57,7 @@ const BenefitsSection = () => {
                 </div>
                 
                 <div className="mb-2">
-                  <span className="text-2xl font-bold text-primary">{benefit.metric}</span>
+                  <span className="text-2xl font-bold" style={{ color: '#5F28F6' }}>{benefit.metric}</span>
                 </div>
                 
                 <h3 className="text-xl font-semibold mb-3 text-foreground">
