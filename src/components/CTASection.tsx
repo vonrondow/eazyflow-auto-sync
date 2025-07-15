@@ -1,16 +1,9 @@
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { ArrowRight, UserPlus, CheckCircle } from "lucide-react";
+import { ArrowRight, UserPlus } from "lucide-react";
 
 const CTASection = () => {
-  const benefits = [
-    "Suporte técnico especializado",
-    "Garantia de 30 dias",
-    "Sem compromisso de longo prazo",
-    "Implementação personalizada"
-  ];
-
   return (
     <section className="py-12 px-4 bg-gradient-to-r from-purple-600 via-purple-700 to-purple-800 text-white relative overflow-hidden">
       {/* Background decoration */}
@@ -27,16 +20,6 @@ const CTASection = () => {
         <p className="text-xl md:text-2xl opacity-90 mb-12 max-w-4xl mx-auto">
           Já imaginou o tanto de dinheiro que você perdeu por alguém não fazer algo simples: "atualizar o CRM"?
         </p>
-
-        {/* Benefits grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-          {benefits.map((benefit, index) => (
-            <div key={index} className="flex items-center gap-3 justify-center md:justify-start">
-              <CheckCircle className="w-5 h-5 text-green-300 flex-shrink-0" />
-              <span className="text-white/90">{benefit}</span>
-            </div>
-          ))}
-        </div>
 
         {/* Single CTA */}
         <div className="max-w-2xl mx-auto">
