@@ -12,7 +12,7 @@ const CTASection = () => {
   ];
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-r from-purple-600 via-purple-700 to-purple-800 text-white relative overflow-hidden">
+    <section className="py-12 px-4 bg-gradient-to-r from-purple-600 via-purple-700 to-purple-800 text-white relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute top-0 left-0 w-full h-full opacity-10">
         <div className="absolute top-20 left-20 w-40 h-40 bg-white rounded-full blur-3xl" />

@@ -3,7 +3,7 @@ import { ArrowRight, Zap, AlertTriangle, Clock, Target, TrendingDown } from "luc
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-4 py-20 overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center px-4 py-12 overflow-hidden">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-purple-50 via-white to-purple-100/50" />
       
