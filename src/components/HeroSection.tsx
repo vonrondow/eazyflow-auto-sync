@@ -57,7 +57,7 @@ const HeroSection = () => {
 
             {/* Solution statement - more impactful */}
             <div className="text-center mb-8">
-              <p className="text-3xl md:text-4xl font-bold mb-8" style={{ color: '#5F28F6' }}>
+              <p className="text-3xl md:text-4xl font-bold mb-8" style={{ color: '#7E22CD' }}>
                 O problema não é a preguiça dos vendedores… é o processo que ainda é manual.
               </p>
               
