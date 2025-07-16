@@ -2,6 +2,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Search, Bot, Layers, Database, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const AutomationDemo = () => {
   return (
@@ -115,10 +116,12 @@ const AutomationDemo = () => {
             <p className="text-muted-foreground mb-6 text-lg">
               Vamos analisar seu processo atual e desenhar a automação perfeita para seu CRM
             </p>
-            <Button size="lg" className="px-8 py-6 text-lg font-semibold">
-              Mapear jornada do cliente
-              <ArrowRight className="ml-2 w-5 h-5" />
-            </Button>
+            <Link to="/lead-form">
+              <Button size="lg" className="px-8 py-6 text-lg font-semibold">
+                Mapear jornada do cliente
+                <ArrowRight className="ml-2 w-5 h-5" />
+              </Button>
+            </Link>
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Zap, AlertTriangle, Clock, Target, TrendingDown } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -64,10 +65,12 @@ const HeroSection = () => {
               {/* CTA logo após a frase de impacto */}
               <div className="animate-fade-in delay-400">
                 <div className="bg-gradient-to-r from-purple-600 via-purple-700 to-purple-800 rounded-3xl p-8 shadow-2xl inline-block">
-                  <Button size="lg" className="px-12 py-8 text-2xl font-bold bg-white text-purple-700 hover:bg-gray-100 border-0 hover:shadow-2xl hover:scale-105 transition-all duration-300 rounded-2xl">
-                    Quero entrar na lista de espera
-                    <ArrowRight className="ml-3 w-7 h-7" />
-                  </Button>
+                  <Link to="/lead-form">
+                    <Button size="lg" className="px-12 py-8 text-2xl font-bold bg-white text-purple-700 hover:bg-gray-100 border-0 hover:shadow-2xl hover:scale-105 transition-all duration-300 rounded-2xl">
+                      Quero entrar na lista de espera
+                      <ArrowRight className="ml-3 w-7 h-7" />
+                    </Button>
+                  </Link>
                   <p className="text-lg text-white/90 font-semibold mt-4">
                     🚀 Garantia de 30 dias
                   </p>

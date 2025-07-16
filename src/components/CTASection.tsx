@@ -2,6 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight, UserPlus } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const CTASection = () => {
   return (
@@ -30,13 +31,15 @@ const CTASection = () => {
               <p className="text-white/80 mb-6">
                 Revolucione seu CRM com nossa automação inteligente
               </p>
-              <Button 
-                size="lg" 
-                className="w-full bg-white text-purple-700 hover:bg-gray-100 font-semibold py-4 text-lg"
-              >
-                Quero entrar na lista de espera
-                <ArrowRight className="ml-2 w-5 h-5" />
-              </Button>
+              <Link to="/lead-form">
+                <Button 
+                  size="lg" 
+                  className="w-full bg-white text-purple-700 hover:bg-gray-100 font-semibold py-4 text-lg"
+                >
+                  Quero entrar na lista de espera
+                  <ArrowRight className="ml-2 w-5 h-5" />
+                </Button>
+              </Link>
               <p className="text-xs text-white/60 mt-3">🚀 Garantia de 30 dias</p>
             </CardContent>
           </Card>
