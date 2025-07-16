@@ -9,6 +9,7 @@ import { Label } from "@/components/ui/label";
 import { ArrowLeft, CheckCircle, UserPlus } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useToast } from "@/hooks/use-toast";
+import { supabase } from "@/integrations/supabase/client";
 
 const formSchema = z.object({
   name: z.string().min(2, "Nome deve ter pelo menos 2 caracteres"),
@@ -32,10 +33,19 @@ const LeadForm = () => {
 
   const onSubmit = async (data: FormData) => {
     try {
-      // Simular envio dos dados
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      
-      console.log("Lead data:", data);
+      const { error } = await supabase
+        .from("Lista de Espera Easy Flow")
+        .insert([
+          {
+            name: data.name,
+            email: data.email,
+            phone: data.phone,
+          },
+        ]);
+
+      if (error) {
+        throw error;
+      }
       
       setIsSubmitted(true);
       toast({
@@ -43,6 +53,7 @@ const LeadForm = () => {
         description: "Seus dados foram enviados com sucesso.",
       });
     } catch (error) {
+      console.error("Erro ao salvar lead:", error);
       toast({
         title: "Erro",
         description: "Ocorreu um erro ao enviar seus dados. Tente novamente.",
