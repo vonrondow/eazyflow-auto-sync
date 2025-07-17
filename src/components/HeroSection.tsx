@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Zap, AlertTriangle, Clock, Target, TrendingDown } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -59,7 +60,7 @@ const HeroSection = () => {
             {/* Solution statement - more impactful */}
             <div className="text-center mb-8">
               <p className="text-3xl md:text-4xl font-bold mb-8" style={{ color: '#7E22CD' }}>
-                O problema não é a preguiça dos vendedores… é o processo que ainda é manual.
+                A previsibilidade do seu pipeline começa com um CRM bem preenchido.
               </p>
               
               {/* CTA logo após a frase de impacto */}
