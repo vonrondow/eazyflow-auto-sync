@@ -1,41 +1,32 @@
-
 import { Card, CardContent } from "@/components/ui/card";
-import { Check } from "lucide-react";
+import { Check, Smartphone, MessageSquare, Users } from "lucide-react";
 
 const IntegrationsSection = () => {
-  const integrations = [
+  const differentials = [
     {
-      name: "HubSpot",
-      description: "Integração completa com HubSpot CRM",
-      logo: "🔶"
+      icon: <MessageSquare className="w-8 h-8 text-primary" />,
+      title: "Conversas com contexto",
+      description: "Nossa IA não manda mensagens aleatórias. Ela cria diálogos com início, meio e fim, como uma pessoa real faria."
     },
     {
-      name: "Pipedrive", 
-      description: "Sincronização automática com Pipedrive",
-      logo: "🟢"
+      icon: <Smartphone className="w-8 h-8 text-primary" />,
+      title: "Padrões de uso humano",
+      description: "Horários variados, pausas naturais, velocidade de digitação real. O WhatsApp não consegue diferenciar."
     },
     {
-      name: "RD Station",
-      description: "Conecte-se facilmente ao RD Station",
-      logo: "🔴"
-    },
-    {
-      name: "Salesforce",
-      description: "Suporte completo ao Salesforce",
-      logo: "🔵"
-    },
-    {
-      name: "Outros CRMs",
-      description: "API flexível para qualquer CRM",
-      logo: "🔗"
+      icon: <Users className="w-8 h-8 text-primary" />,
+      title: "Rede de chips aquecidos",
+      description: "Seus chips interagem entre si de forma natural, construindo histórico e reputação gradualmente."
     }
   ];
 
   const features = [
-    "Sincronização em tempo real",
-    "Configuração em menos de 5 minutos", 
-    "Backup automático de dados",
-    "API robusta e confiável"
+    "Simulação de comportamento humano 24/7",
+    "Pausas e intervalos naturais entre mensagens",
+    "Horários de atividade variados e realistas",
+    "Conversas contextualizadas e coerentes",
+    "Velocidade de digitação humanizada",
+    "Histórico de interações construído gradualmente"
   ];
 
   return (
@@ -43,25 +34,27 @@ const IntegrationsSection = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Integra com seu <span className="gradient-text">CRM favorito</span>
+            O que nos torna <span className="gradient-text">diferentes</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Conecte a EazyFlow ao seu CRM atual em poucos cliques
+            Enquanto outros maturadores usam padrões robóticos detectáveis, nossa IA simula comportamento humano real
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Integrations */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+          {/* Differentials */}
           <div>
-            <h3 className="text-2xl font-semibold mb-8">CRMs Suportados</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
-              {integrations.map((integration, index) => (
+            <h3 className="text-2xl font-semibold mb-8">Nossa tecnologia</h3>
+            <div className="space-y-6">
+              {differentials.map((item, index) => (
                 <Card key={index} className="border border-purple-100 hover:border-purple-200 hover:shadow-lg transition-all duration-300">
-                  <CardContent className="p-6 flex items-center gap-4">
-                    <div className="text-3xl">{integration.logo}</div>
+                  <CardContent className="p-6 flex items-start gap-4">
+                    <div className="p-3 bg-purple-100 rounded-xl flex-shrink-0">
+                      {item.icon}
+                    </div>
                     <div>
-                      <h4 className="font-semibold text-foreground">{integration.name}</h4>
-                      <p className="text-sm text-muted-foreground">{integration.description}</p>
+                      <h4 className="font-semibold text-foreground text-lg mb-2">{item.title}</h4>
+                      <p className="text-muted-foreground">{item.description}</p>
                     </div>
                   </CardContent>
                 </Card>
@@ -71,7 +64,7 @@ const IntegrationsSection = () => {
 
           {/* Features */}
           <div>
-            <h3 className="text-2xl font-semibold mb-8">Vantagens da nossa integração</h3>
+            <h3 className="text-2xl font-semibold mb-8">O que você ganha</h3>
             <div className="space-y-4">
               {features.map((feature, index) => (
                 <div key={index} className="flex items-center gap-3">
@@ -88,10 +81,10 @@ const IntegrationsSection = () => {
               <CardContent className="p-6">
                 <div className="flex items-center gap-3 mb-2">
                   <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                  <span className="font-semibold text-foreground">Garantia de 30 dias</span>
+                  <span className="font-semibold text-foreground">Tecnologia proprietária</span>
                 </div>
                 <p className="text-sm text-muted-foreground">
-                  Teste sem compromisso com garantia total de reembolso
+                  Nossa IA foi treinada com milhares de padrões de comportamento humano real no WhatsApp
                 </p>
               </CardContent>
             </Card>

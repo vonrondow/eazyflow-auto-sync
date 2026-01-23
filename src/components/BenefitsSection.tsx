@@ -1,32 +1,31 @@
-
 import { Card, CardContent } from "@/components/ui/card";
-import { Clock, Target, TrendingUp, Shield } from "lucide-react";
+import { Shield, Clock, TrendingUp, Bot } from "lucide-react";
 
 const BenefitsSection = () => {
   const benefits = [
     {
-      icon: <Clock className="w-8 h-8 text-primary" />,
-      title: "Decisões estratégicas precisas",
-      description: "Dados atualizados permitem forecasts confiáveis e decisões de investimento certeiras. Sem previsibilidade, você navega às cegas.",
-      metric: "Forecasting preciso"
+      icon: <Shield className="w-8 h-8 text-primary" />,
+      title: "Zero risco de banimento",
+      description: "Nossa IA simula padrões de uso humano reais, com pausas, horários variados e interações naturais que passam despercebidas pelo WhatsApp.",
+      metric: "Proteção total"
     },
     {
-      icon: <Target className="w-8 h-8 text-primary" />,
-      title: "Produtividade real da equipe",
-      description: "Vendedores focam no que sabem fazer: vender. Sem perder tempo com burocracia digital que drena energia e motivação.",
-      metric: "Mais vendas"
+      icon: <Clock className="w-8 h-8 text-primary" />,
+      title: "Aquecimento automático 24/7",
+      description: "Enquanto você dorme ou trabalha, seus chips estão sendo aquecidos de forma inteligente. Sem esforço manual, sem esquecimento.",
+      metric: "100% automático"
     },
     {
       icon: <TrendingUp className="w-8 h-8 text-primary" />,
-      title: "Identificação de oportunidades",
-      description: "Padrões de comportamento revelam leads quentes e cross-sells. CRM desatualizado = dinheiro na mesa.",
-      metric: "Oportunidades visíveis"
+      title: "Chips que duram mais",
+      description: "Chips bem aquecidos têm vida útil muito maior. Menos gastos com novos números, mais ROI nas suas campanhas.",
+      metric: "Maior durabilidade"
     },
     {
-      icon: <Shield className="w-8 h-8 text-primary" />,
-      title: "Relacionamento com cliente",
-      description: "Histórico completo permite atendimento personalizado. Cliente sente que você realmente o conhece.",
-      metric: "Experiência superior"
+      icon: <Bot className="w-8 h-8 text-primary" />,
+      title: "Comportamento humanizado",
+      description: "Diferente de bots que mandam mensagens robóticas, nossa IA cria conversas genuínas que parecem reais para o WhatsApp.",
+      metric: "IA inteligente"
     }
   ];
 
@@ -38,8 +37,7 @@ const BenefitsSection = () => {
             Por que escolher a <span className="gradient-text">EazyFlow</span>?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Como especialista em CRM, vejo empresas perdendo milhões por dados desatualizados. 
-            Um CRM bem mantido não é só organização - é estratégia competitiva.
+            A diferença entre ter chips banidos toda semana e ter chips saudáveis que vendem por meses está no comportamento.
           </p>
         </div>
 

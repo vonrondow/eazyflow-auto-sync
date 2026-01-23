@@ -1,7 +1,6 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { ArrowRight, UserPlus } from "lucide-react";
+import { ArrowRight, Shield } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const CTASection = () => {
@@ -15,21 +14,21 @@ const CTASection = () => {
 
       <div className="relative z-10 max-w-6xl mx-auto text-center">
         <h2 className="text-4xl md:text-6xl font-bold mb-6">
-          Pronto para automatizar seu CRM?
+          Pare de perder chips agora
         </h2>
         
         <p className="text-xl md:text-2xl opacity-90 mb-12 max-w-4xl mx-auto">
-          Já imaginou o tanto de dinheiro que você perdeu por alguém não fazer algo simples: "atualizar o CRM"?
+          Chips saudáveis vendem mais, por mais tempo. Proteja sua operação com aquecimento inteligente.
         </p>
 
         {/* Single CTA */}
         <div className="max-w-2xl mx-auto">
           <Card className="border-0 bg-white/10 backdrop-blur-sm hover:bg-white/15 transition-all duration-300">
             <CardContent className="p-8 text-center">
-              <UserPlus className="w-12 h-12 text-white mb-4 mx-auto" />
+              <Shield className="w-12 h-12 text-white mb-4 mx-auto" />
               <h3 className="text-2xl font-bold mb-4">Entrar na lista de espera</h3>
               <p className="text-white/80 mb-6">
-                Revolucione seu CRM com nossa automação inteligente
+                Garanta seu acesso antecipado ao aquecedor de chips mais inteligente do mercado
               </p>
               <Link to="/lead-form">
                 <Button 
@@ -40,7 +39,7 @@ const CTASection = () => {
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </Link>
-              <p className="text-xs text-white/60 mt-3">🚀 Garantia de 30 dias</p>
+              <p className="text-xs text-white/60 mt-3">🛡️ O WhatsApp reage a comportamentos, não ao chip</p>
             </CardContent>
           </Card>
         </div>

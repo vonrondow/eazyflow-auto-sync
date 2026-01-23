@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Search, Bot, Layers, Database, ArrowRight } from "lucide-react";
+import { Smartphone, Bot, MessageCircle, Shield, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const AutomationDemo = () => {
@@ -9,10 +9,10 @@ const AutomationDemo = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Como a <span className="gradient-text">automação</span> funciona
+            Como o <span className="gradient-text">aquecimento</span> funciona
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Nossa IA mapeia sua jornada do cliente e trabalha 24/7 para manter seu CRM sempre atualizado
+            Nossa IA trabalha 24/7 simulando comportamento humano real para manter seus chips saudáveis
           </p>
         </div>
 
@@ -22,7 +22,7 @@ const AutomationDemo = () => {
             <CardContent className="p-8 text-center">
               <div className="mb-6 flex justify-center">
                 <div className="p-4 bg-purple-100 rounded-full">
-                  <Search className="w-8 h-8 text-primary" />
+                  <Smartphone className="w-8 h-8 text-primary" />
                 </div>
               </div>
               
@@ -32,9 +32,9 @@ const AutomationDemo = () => {
                 </span>
               </div>
               
-              <h3 className="text-xl font-semibold mb-3">Mapear Jornada</h3>
+              <h3 className="text-xl font-semibold mb-3">Conectar Chip</h3>
               <p className="text-muted-foreground">
-                Entendemos o fluxo do seu cliente e as etapas do seu CRM
+                Conecte seu chip novo ou existente à nossa plataforma em segundos
               </p>
             </CardContent>
           </Card>
@@ -54,9 +54,9 @@ const AutomationDemo = () => {
                 </span>
               </div>
               
-              <h3 className="text-xl font-semibold mb-3">Monitorar Dados</h3>
+              <h3 className="text-xl font-semibold mb-3">IA Assume</h3>
               <p className="text-muted-foreground">
-                Identifica automaticamente novos leads, interações e oportunidades
+                Nossa inteligência artificial começa a simular comportamento humano
               </p>
             </CardContent>
           </Card>
@@ -66,7 +66,7 @@ const AutomationDemo = () => {
             <CardContent className="p-8 text-center">
               <div className="mb-6 flex justify-center">
                 <div className="p-4 bg-purple-100 rounded-full">
-                  <Layers className="w-8 h-8 text-primary" />
+                  <MessageCircle className="w-8 h-8 text-primary" />
                 </div>
               </div>
               
@@ -76,9 +76,9 @@ const AutomationDemo = () => {
                 </span>
               </div>
               
-              <h3 className="text-xl font-semibold mb-3">Organizar Informações</h3>
+              <h3 className="text-xl font-semibold mb-3">Conversas Reais</h3>
               <p className="text-muted-foreground">
-                Estrutura e organiza os dados seguindo as regras do seu negócio
+                Interações naturais, pausas humanas, horários variados e contexto real
               </p>
             </CardContent>
           </Card>
@@ -88,7 +88,7 @@ const AutomationDemo = () => {
             <CardContent className="p-8 text-center">
               <div className="mb-6 flex justify-center">
                 <div className="p-4 bg-purple-100 rounded-full">
-                  <Database className="w-8 h-8 text-primary" />
+                  <Shield className="w-8 h-8 text-primary" />
                 </div>
               </div>
               
@@ -98,9 +98,9 @@ const AutomationDemo = () => {
                 </span>
               </div>
               
-              <h3 className="text-xl font-semibold mb-3">Atualizar CRM</h3>
+              <h3 className="text-xl font-semibold mb-3">Chip Protegido</h3>
               <p className="text-muted-foreground">
-                Preenche automaticamente seu CRM com dados precisos e organizados
+                Seu chip fica saudável e pronto para campanhas de vendas de alto volume
               </p>
             </CardContent>
           </Card>
@@ -110,14 +110,14 @@ const AutomationDemo = () => {
         <div className="mt-16 text-center">
           <div className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 border border-purple-100 shadow-xl max-w-2xl mx-auto">
             <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-              Pronto para mapear sua jornada?
+              Pronto para proteger seus chips?
             </h3>
             <p className="text-muted-foreground mb-6 text-lg">
-              Vamos analisar seu processo atual e desenhar a automação perfeita para seu CRM
+              Comece a aquecer seus chips de forma inteligente e pare de perder números
             </p>
             <Link to="/lead-form">
               <Button size="lg" className="px-8 py-6 text-lg font-semibold">
-                Mapear jornada do cliente
+                Quero entrar na lista de espera
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
             </Link>
