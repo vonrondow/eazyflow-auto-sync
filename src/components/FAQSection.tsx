@@ -8,28 +8,28 @@ import {
 const FAQSection = () => {
   const faqs = [
     {
-      question: "Quanto tempo leva para implementar a automação?",
-      answer: "O processo leva 15 dias para mapear a jornada e fazer implementação com o CRM. Após isso, a automação começa a funcionar imediatamente."
+      question: "Por que meus chips são banidos?",
+      answer: "O WhatsApp detecta comportamentos suspeitos, não o chip em si. Padrões robóticos como mensagens muito rápidas, horários fixos e textos repetitivos são facilmente identificados. Nossa IA simula comportamento humano real para evitar essas detecções."
     },
     {
-      question: "Funciona com qualquer CRM?",
-      answer: "Sim, nossa solução se integra com os principais CRMs do mercado como Pipedrive, HubSpot, Salesforce, RD Station e muitos outros."
+      question: "Como a IA simula comportamento humano?",
+      answer: "Nossa inteligência artificial foi treinada com milhares de padrões de uso real do WhatsApp. Ela varia horários, adiciona pausas naturais, simula velocidade de digitação humana e cria conversas contextualizadas — tudo para parecer um usuário comum."
     },
     {
-      question: "Como a IA identifica as informações para preencher o CRM?",
-      answer: "Nossa IA monitora interações por email, WhatsApp, chamadas e outras fontes de dados da sua empresa, identificando automaticamente leads, oportunidades e atualizações de status."
+      question: "Quanto tempo leva para aquecer um chip?",
+      answer: "O processo de aquecimento é gradual e contínuo. Em média, um chip precisa de 7-14 dias de aquecimento intensivo antes de ser usado em campanhas de alto volume. Depois disso, o aquecimento de manutenção continua rodando 24/7."
     },
     {
-      question: "E se a IA preencher informações erradas?",
-      answer: "Temos um sistema de agentes para monitorar os erros."
+      question: "Posso usar o chip enquanto ele está sendo aquecido?",
+      answer: "Sim! Nossa IA trabalha de forma inteligente, intercalando o aquecimento com seu uso real. Ela ajusta a intensidade automaticamente baseado na sua atividade."
     },
     {
-      question: "Preciso treinar minha equipe?",
-      answer: "Não. A automação funciona nos bastidores sem alterar o fluxo de trabalho da sua equipe. Eles continuam trabalhando normalmente enquanto o CRM se atualiza sozinho."
+      question: "Funciona para chips novos ou só antigos?",
+      answer: "Funciona para ambos. Chips novos se beneficiam do aquecimento inicial para construir reputação. Chips antigos se beneficiam do aquecimento de manutenção para preservar a saúde."
     },
     {
-      question: "Quanto custa a solução?",
-      answer: "O investimento varia conforme o tamanho da equipe e complexidade do processo. Agende uma conversa para receber uma proposta personalizada."
+      question: "Qual a diferença para outros maturadores?",
+      answer: "A maioria dos maturadores usa mensagens pré-definidas e padrões previsíveis. Nossa IA gera conversas únicas com contexto real, pausas naturais e comportamento que realmente parece humano."
     }
   ];
 
@@ -41,7 +41,7 @@ const FAQSection = () => {
             Perguntas Frequentes
           </h2>
           <p className="text-xl text-muted-foreground">
-            Esclarecemos as principais dúvidas sobre nossa automação
+            Tire suas dúvidas sobre o aquecimento inteligente de chips
           </p>
         </div>
 

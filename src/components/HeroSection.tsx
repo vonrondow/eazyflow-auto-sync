@@ -1,6 +1,5 @@
-
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Zap, AlertTriangle, Clock, Target, TrendingDown } from "lucide-react";
+import { ArrowRight, Zap, AlertTriangle, ShieldX, Clock, Bot } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const HeroSection = () => {
@@ -17,53 +16,59 @@ const HeroSection = () => {
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-6 py-3 bg-white/90 backdrop-blur-sm rounded-full border border-purple-200 mb-8 animate-fade-in shadow-lg">
           <Zap className="w-5 h-5 text-primary" />
-          <span className="text-base font-semibold text-foreground">Automação com IA que revoluciona seu CRM</span>
+          <span className="text-base font-semibold text-foreground">Aquecedor de Chips com Inteligência Artificial</span>
         </div>
 
         {/* Main headline */}
-        <h1 className="text-6xl md:text-8xl font-bold mb-8 animate-fade-in leading-[0.9]">
-          Preencha seu{" "}
-          <span className="gradient-text">CRM sozinho</span>
+        <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in leading-[0.95]">
+          A IA que simula{" "}
+          <span className="gradient-text">comportamento humano</span>{" "}
+          para manter sua máquina de vendas ligada
         </h1>
 
-        {/* Problem statement - more direct and persuasive */}
+        {/* Subtitle */}
+        <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-4xl mx-auto animate-fade-in delay-100">
+          Enquanto outros maturadores mandam mensagens pré-definidas e aleatórias, o nosso simula conversas reais como um usuário comum — não como um spammer.
+        </p>
+
+        {/* Problem statement */}
         <div className="mb-12 max-w-5xl mx-auto animate-fade-in delay-200">
           <div className="bg-white/95 backdrop-blur-sm rounded-3xl p-10 border border-purple-100 shadow-2xl mb-8">
             <div className="flex items-center justify-center gap-3 mb-8">
               <AlertTriangle className="w-8 h-8 text-primary" />
               <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-                Quanto dinheiro você já perdeu?
+                Qual dessas dores você sente?
               </h2>
             </div>
             
-            {/* Problem points with better visual hierarchy */}
+            {/* Problem points */}
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="text-center p-6 bg-purple-50/50 rounded-2xl">
-                <TrendingDown className="w-8 h-8 text-primary mb-3 mx-auto" />
-                <p className="text-lg font-semibold text-foreground mb-2">Leads Perdidos</p>
-                <p className="text-muted-foreground">Marketing não percebeu leads ruins a tempo</p>
-              </div>
-              
-              <div className="text-center p-6 bg-purple-50/50 rounded-2xl">
-                <Target className="w-8 h-8 text-primary mb-3 mx-auto" />
-                <p className="text-lg font-semibold text-foreground mb-2">Dados Falsos</p>
-                <p className="text-muted-foreground">Vendedores bons pareciam ruins nos relatórios</p>
+                <ShieldX className="w-8 h-8 text-primary mb-3 mx-auto" />
+                <p className="text-lg font-semibold text-foreground mb-2">Chip Banido</p>
+                <p className="text-muted-foreground">Perdeu seu número após poucos dias de uso intenso</p>
               </div>
               
               <div className="text-center p-6 bg-purple-50/50 rounded-2xl">
                 <Clock className="w-8 h-8 text-primary mb-3 mx-auto" />
-                <p className="text-lg font-semibold text-foreground mb-2">Tempo Perdido</p>
-                <p className="text-muted-foreground">Horas digitando em vez de vendendo</p>
+                <p className="text-lg font-semibold text-foreground mb-2">Aquecimento Manual</p>
+                <p className="text-muted-foreground">Gasta horas aquecendo chip e ainda faz errado</p>
+              </div>
+              
+              <div className="text-center p-6 bg-purple-50/50 rounded-2xl">
+                <Bot className="w-8 h-8 text-primary mb-3 mx-auto" />
+                <p className="text-lg font-semibold text-foreground mb-2">Padrão de Bot</p>
+                <p className="text-muted-foreground">WhatsApp detecta comportamento robótico facilmente</p>
               </div>
             </div>
 
-            {/* Solution statement - more impactful */}
+            {/* Solution statement */}
             <div className="text-center mb-8">
               <p className="text-3xl md:text-4xl font-bold mb-8" style={{ color: '#7E22CD' }}>
-                A previsibilidade do seu pipeline começa com um CRM bem preenchido.
+                O WhatsApp reage a comportamentos suspeitos, não ao chip. Aja como humano e diminua riscos.
               </p>
               
-              {/* CTA logo após a frase de impacto */}
+              {/* CTA */}
               <div className="animate-fade-in delay-400">
                 <div className="bg-gradient-to-r from-purple-600 via-purple-700 to-purple-800 rounded-3xl p-8 shadow-2xl inline-block">
                   <Link to="/lead-form">
@@ -73,7 +78,7 @@ const HeroSection = () => {
                     </Button>
                   </Link>
                   <p className="text-lg text-white/90 font-semibold mt-4">
-                    🚀 Garantia de 30 dias
+                    🛡️ Chips saudáveis vendem mais, por mais tempo
                   </p>
                 </div>
               </div>
