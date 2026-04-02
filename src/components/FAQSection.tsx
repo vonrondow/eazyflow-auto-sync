@@ -17,11 +17,11 @@ const FAQSection = () => {
     },
     {
       question: "Quanto tempo leva para aquecer um chip?",
-      answer: "O processo de aquecimento é gradual e contínuo. Em média, um chip precisa de 7-14 dias de aquecimento intensivo antes de ser usado em campanhas de alto volume. Depois disso, o aquecimento de manutenção continua rodando 24/7."
+      answer: "Depende do tipo de chip. Para chips antigos, você pode continuar usando na operação enquanto aquece para aumentar o score. Para chips novos, o mínimo recomendado é de 30 dias. Lembre-se: o processo de maturação deve ser encarado a longo prazo — não é milagre. Quanto mais dias de aquecimento, melhores os resultados."
     },
     {
       question: "Posso usar o chip enquanto ele está sendo aquecido?",
-      answer: "Sim! Nossa IA trabalha de forma inteligente, intercalando o aquecimento com seu uso real. Ela ajusta a intensidade automaticamente baseado na sua atividade."
+      answer: "Depende do tipo de chip. Chips novos: o ideal é passar por um processo de maturação de, no mínimo, 30 dias antes de colocá-los em operação comercial, sempre de forma gradual. Já os chips antigos, que já estão em operação há algum tempo, podem continuar sendo aquecidos enquanto você os utiliza normalmente no dia a dia."
     },
     {
       question: "Funciona para chips novos ou só antigos?",
@@ -29,7 +29,7 @@ const FAQSection = () => {
     },
     {
       question: "Qual a diferença para outros maturadores?",
-      answer: "A maioria dos maturadores usa mensagens pré-definidas e padrões previsíveis. Nossa IA gera conversas únicas com contexto real, pausas naturais e comportamento que realmente parece humano."
+      answer: "Nossa IA gera conversas únicas com contexto real, pausas naturais e comportamento que realmente parece humano. Além disso, nosso maturador é mais confiável, pois simula padrões reais de uso — e não apenas mensagens pré-definidas e previsíveis."
     }
   ];
 
