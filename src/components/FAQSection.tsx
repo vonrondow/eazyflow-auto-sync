@@ -29,7 +29,7 @@ const FAQSection = () => {
     },
     {
       question: "Qual a diferença para outros maturadores?",
-      answer: "A maioria dos maturadores usa mensagens pré-definidas e padrões previsíveis. Nossa IA gera conversas únicas com contexto real, pausas naturais e comportamento que realmente parece humano."
+      answer: "Nossa IA gera conversas únicas com contexto real, pausas naturais e comportamento que realmente parece humano. Além disso, nosso maturador é mais confiável, pois simula padrões reais de uso — e não apenas mensagens pré-definidas e previsíveis."
     }
   ];
 
