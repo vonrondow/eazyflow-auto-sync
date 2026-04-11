@@ -5,6 +5,7 @@ import ChipScenarios from "@/components/ChipScenarios";
 import DifferentialsSection from "@/components/DifferentialsSection";
 import ContingencySection from "@/components/ContingencySection";
 import CTASection from "@/components/CTASection";
+import FAQSection from "@/components/FAQSection";
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
       <ChipScenarios />
       <DifferentialsSection />
       <ContingencySection />
+      <FAQSection />
       <CTASection />
     </div>
   );
