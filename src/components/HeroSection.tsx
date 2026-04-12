@@ -12,9 +12,9 @@ const HeroSection = () => {
       <div className="absolute top-1/3 right-1/4 w-[500px] h-[500px] bg-destructive/10 rounded-full blur-[150px]" />
 
       <div className="relative z-10 max-w-6xl mx-auto w-full">
-        <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
+        <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
           {/* Left: Text content */}
-          <div className="flex-1 text-center lg:text-left">
+          <div className="flex-1 text-center lg:text-left max-w-xl">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/5 backdrop-blur-sm rounded-full border border-white/10 mb-8">
               <AlertTriangle className="w-4 h-4 text-destructive" />
               <span className="text-sm font-semibold text-white/80 uppercase tracking-wider">Sua operação está em risco agora</span>
