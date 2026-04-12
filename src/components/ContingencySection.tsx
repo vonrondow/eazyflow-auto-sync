@@ -1,5 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Shield, AlertTriangle, CheckCircle2, Target } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Shield, AlertTriangle, CheckCircle2, Target, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const ContingencySection = () => {
   return (
@@ -77,7 +79,7 @@ const ContingencySection = () => {
         </div>
 
         {/* Fair Play */}
-        <Card className="border-2 border-primary/20 shadow-xl max-w-4xl mx-auto">
+        <Card className="border-2 border-primary/20 shadow-xl max-w-4xl mx-auto mb-12">
           <CardContent className="p-8 md:p-12">
             <div className="flex items-center gap-3 mb-8">
               <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center">
@@ -125,6 +127,20 @@ const ContingencySection = () => {
             </div>
           </CardContent>
         </Card>
+
+        {/* CTA */}
+        <div className="text-center">
+          <Link to="/lead-form">
+            <Button size="lg" className="px-10 py-7 text-xl font-bold bg-primary text-primary-foreground hover:opacity-90 rounded-2xl transition-all duration-300">
+              <Shield className="mr-2 w-6 h-6" />
+              Quero blindar minha operação
+              <ArrowRight className="ml-2 w-6 h-6" />
+            </Button>
+          </Link>
+          <p className="text-muted-foreground mt-4 text-sm">
+            Vagas limitadas — entre na lista de espera
+          </p>
+        </div>
       </div>
     </section>
   );
