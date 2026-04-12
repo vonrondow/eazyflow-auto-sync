@@ -1,10 +1,7 @@
-
 import HeroSection from "@/components/HeroSection";
 import LossCalculator from "@/components/LossCalculator";
-import ChipScenarios from "@/components/ChipScenarios";
-import DifferentialsSection from "@/components/DifferentialsSection";
+import SolutionSection from "@/components/SolutionSection";
 import ContingencySection from "@/components/ContingencySection";
-import CTASection from "@/components/CTASection";
 import FAQSection from "@/components/FAQSection";
 
 const Index = () => {
@@ -12,11 +9,9 @@ const Index = () => {
     <div className="min-h-screen">
       <HeroSection />
       <LossCalculator />
-      <ChipScenarios />
-      <DifferentialsSection />
+      <SolutionSection />
       <ContingencySection />
       <FAQSection />
-      <CTASection />
     </div>
   );
 };
