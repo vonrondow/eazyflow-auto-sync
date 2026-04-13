@@ -29,7 +29,7 @@ const HeroSection = () => {
               <span className="text-primary">agora.</span>
             </h1>
 
-            <p className="text-lg md:text-xl text-white/50 mb-10 max-w-lg mx-auto lg:mx-0 leading-relaxed">
+            <p className="text-lg md:text-xl text-white/70 mb-10 max-w-lg mx-auto lg:mx-0 leading-relaxed">
               A EazyFlow automatiza o processo de maturação de chips da sua operação com uma IA que simula o comportamento humano + um plano de contingência para minimizar o risco de banimento.
             </p>
 
