@@ -40,7 +40,7 @@ const FAQSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
             Perguntas Frequentes
           </h2>
-          <p className="text-xl text-white/50">
+          <p className="text-xl text-white/70">
             Tire suas dúvidas sobre o aquecimento inteligente de chips
           </p>
         </div>
@@ -51,7 +51,7 @@ const FAQSection = () => {
               <AccordionTrigger className="text-left text-lg font-semibold text-white hover:text-primary">
                 {faq.question}
               </AccordionTrigger>
-              <AccordionContent className="text-white/50 text-base leading-relaxed">
+              <AccordionContent className="text-white/70 text-base leading-relaxed">
                 {faq.answer}
               </AccordionContent>
             </AccordionItem>

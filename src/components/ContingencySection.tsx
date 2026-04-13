@@ -31,13 +31,13 @@ const ContingencySection = () => {
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <span className="text-destructive font-bold text-lg mt-0.5">✕</span>
-                  <p className="text-white/50">
+                  <p className="text-white/70">
                     Se alguém te promete que <strong className="text-white/70">nunca será banido</strong> no WhatsApp, a primeira coisa que você deve fazer é <strong className="text-white/70">não confiar</strong> nessa pessoa.
                   </p>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-destructive font-bold text-lg mt-0.5">✕</span>
-                  <p className="text-white/50">
+                  <p className="text-white/70">
                     Confiar em um único chip é <strong className="text-white/70">roleta russa</strong>. Sua operação depende de redundância.
                   </p>
                 </li>
@@ -57,19 +57,19 @@ const ContingencySection = () => {
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                  <p className="text-white/50">
+                  <p className="text-white/70">
                     Checklist validado pra manter sua operação rodando e reduzir ao máximo o risco de banimento.
                   </p>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                  <p className="text-white/50">
+                  <p className="text-white/70">
                     Você conta com uma <strong className="text-white/70">reserva de 30% de contingência</strong>. Se o chip principal cair, a reserva assume.
                   </p>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                  <p className="text-white/50">
+                  <p className="text-white/70">
                     Resultado: <strong className="text-white/70">operação muito mais confiável</strong> e resiliente.
                   </p>
                 </li>
@@ -95,7 +95,7 @@ const ContingencySection = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-white mb-1">Verdade</p>
-                  <p className="text-white/50">Se alguém te promete uma maturação em menos de 30 dias, ela está <strong className="text-white/70">mentindo</strong> pra você.</p>
+                  <p className="text-white/70">Se alguém te promete uma maturação em menos de 30 dias, ela está <strong className="text-white/70">mentindo</strong> pra você.</p>
                 </div>
               </div>
 
@@ -105,7 +105,7 @@ const ContingencySection = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-white mb-1">Processo</p>
-                  <p className="text-white/50">Chips novos precisam de <strong className="text-white/70">30 a 60 dias</strong> de aquecimento consistente.</p>
+                  <p className="text-white/70">Chips novos precisam de <strong className="text-white/70">30 a 60 dias</strong> de aquecimento consistente.</p>
                 </div>
               </div>
 
@@ -115,7 +115,7 @@ const ContingencySection = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-white mb-1">Nosso Compromisso</p>
-                  <p className="text-white/50">Seguimos as boas práticas do algoritmo para garantir <strong className="text-white/70">longevidade</strong>.</p>
+                  <p className="text-white/70">Seguimos as boas práticas do algoritmo para garantir <strong className="text-white/70">longevidade</strong>.</p>
                 </div>
               </div>
             </div>

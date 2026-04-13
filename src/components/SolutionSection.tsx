@@ -9,7 +9,7 @@ const SolutionSection = () => {
           <h2 className="text-3xl md:text-5xl font-bold mb-4 text-white">
             Como a <span className="text-primary">Eazy Flow</span> funciona
           </h2>
-          <p className="text-lg text-white/50 max-w-3xl mx-auto">
+          <p className="text-lg text-white/70 max-w-3xl mx-auto">
             Tecnologia proprietária que se adapta ao momento de cada chip da sua operação
           </p>
         </div>
@@ -28,7 +28,7 @@ const SolutionSection = () => {
                   <h3 className="text-xl font-bold text-white">Chips Novos — Incubadora</h3>
                 </div>
               </div>
-              <p className="text-white/50 mb-5">
+              <p className="text-white/70 mb-5">
                 O chip acabou de ser comprado. Precisa de <strong className="text-white/70">aquecimento intenso e gradual</strong> antes de enviar a primeira oferta.
               </p>
               <div className="space-y-3">
@@ -60,7 +60,7 @@ const SolutionSection = () => {
                   <h3 className="text-xl font-bold text-white">Chips Antigos — Manutenção</h3>
                 </div>
               </div>
-              <p className="text-white/50 mb-5">
+              <p className="text-white/70 mb-5">
                 O chip já vende, mas sofre denúncias. A Eazy Flow roda <strong className="text-white/70">em paralelo</strong> para manter o Health Score alto.
               </p>
               <div className="space-y-3">
@@ -115,7 +115,7 @@ const SolutionSection = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-bold text-white mb-1">{item.title}</h4>
-                  <p className="text-white/50 text-sm leading-relaxed">{item.description}</p>
+                  <p className="text-white/70 text-sm leading-relaxed">{item.description}</p>
                 </div>
               </CardContent>
             </Card>

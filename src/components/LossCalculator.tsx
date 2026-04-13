@@ -26,7 +26,7 @@ const LossCalculator = () => {
           <h2 className="text-3xl md:text-5xl font-bold mb-4 text-white">
             Quanto custa a sua <span className="text-primary">operação parada</span>?
           </h2>
-          <p className="text-lg text-white/50 max-w-2xl mx-auto">
+          <p className="text-lg text-white/70 max-w-2xl mx-auto">
             Cenário: WhatsApp banido por apenas <strong className="text-white/70">24h</strong> (1 dia útil). Faça as contas.
           </p>
         </div>
@@ -78,12 +78,12 @@ const LossCalculator = () => {
                     <p className="text-5xl md:text-6xl font-bold text-destructive mb-2">
                       R$ {dailyLoss.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
                     </p>
-                    <p className="text-white/50">
+                    <p className="text-white/70">
                       por vendedor, em apenas <strong className="text-white/70">um dia</strong> de operação parada
                     </p>
                   </>
                 ) : (
-                  <p className="text-lg text-white/50">
+                  <p className="text-lg text-white/70">
                     Preencha os campos acima para ver quanto você perde
                   </p>
                 )}
@@ -111,7 +111,7 @@ const LossCalculator = () => {
                 <h3 className="text-xl font-bold text-white mb-3">
                   Parem de perder dinheiro com "aquecimento" manual falho.
                 </h3>
-                <p className="text-white/50 leading-relaxed">
+                <p className="text-white/70 leading-relaxed">
                   Cada minuto que sua equipe gasta simulando conversas é um minuto a menos vendendo. A EazyFlow automatiza o tédio para você focar no lucro.
                 </p>
               </CardContent>
@@ -125,7 +125,7 @@ const LossCalculator = () => {
                 <h3 className="text-xl font-bold text-white mb-3">
                   E se fossem 5 vendedores?
                 </h3>
-                <p className="text-white/50 leading-relaxed">
+                <p className="text-white/70 leading-relaxed">
                   Multiplique o prejuízo por cada vendedor da sua equipe. O custo real de um banimento é muito maior do que parece.
                 </p>
               </CardContent>
