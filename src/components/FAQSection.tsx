@@ -34,24 +34,24 @@ const FAQSection = () => {
   ];
 
   return (
-    <section className="py-6 px-4 bg-muted/30">
+    <section className="py-20 px-4 bg-[#0f0f1a]">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
             Perguntas Frequentes
           </h2>
-          <p className="text-xl text-muted-foreground">
+          <p className="text-xl text-white/50">
             Tire suas dúvidas sobre o aquecimento inteligente de chips
           </p>
         </div>
 
         <Accordion type="single" collapsible className="w-full">
           {faqs.map((faq, index) => (
-            <AccordionItem key={index} value={`item-${index}`}>
-              <AccordionTrigger className="text-left text-lg font-semibold">
+            <AccordionItem key={index} value={`item-${index}`} className="border-white/10">
+              <AccordionTrigger className="text-left text-lg font-semibold text-white hover:text-primary">
                 {faq.question}
               </AccordionTrigger>
-              <AccordionContent className="text-muted-foreground text-base leading-relaxed">
+              <AccordionContent className="text-white/50 text-base leading-relaxed">
                 {faq.answer}
               </AccordionContent>
             </AccordionItem>
