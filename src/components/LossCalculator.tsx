@@ -13,7 +13,7 @@ const LossCalculator = () => {
   const salesNum = parseFloat(salesGoal) || 0;
   const ticketNum = parseFloat(ticketMedio) || 0;
   const monthlyRevenue = salesNum * ticketNum;
-  const dailyLoss = salesNum > 0 ? (salesNum * ticketNum) / salesNum : 0;
+  const dailyLoss = salesNum > 0 ? (salesNum * ticketNum) / 30 : 0;
 
   return (
     <section className="py-20 px-4 bg-[#0f0f1a]">
