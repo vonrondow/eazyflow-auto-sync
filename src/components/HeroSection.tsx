@@ -36,20 +36,10 @@ const HeroSection = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Link to="/lead-form">
                 <Button size="lg" className="px-8 py-6 text-lg font-bold bg-primary text-primary-foreground hover:opacity-90 rounded-xl transition-all duration-300">
-                  Começar Agora
+                  Conversar com um especialista
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </Link>
-              <Button
-                size="lg"
-                variant="outline"
-                className="px-8 py-6 text-lg font-semibold border border-white/30 text-white bg-transparent hover:bg-white/10 rounded-xl"
-                onClick={() => {
-                  document.getElementById('como-funciona')?.scrollIntoView({ behavior: 'smooth' });
-                }}
-              >
-                Ver Demonstração
-              </Button>
             </div>
           </div>
 
