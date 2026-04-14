@@ -130,13 +130,13 @@ const ContingencySection = () => {
 
         {/* CTA */}
         <div className="text-center">
-          <Link to="/lead-form">
+          <a href="https://api.whatsapp.com/send/?phone=5533988803069&text=Ol%C3%A1%21+Quero+minimizar+os+riscos+de+banimentos+e+restri%C3%A7%C3%B5es+do+meu+chip.+Como+funciona+o+maturador+de+chips%3F&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
             <Button size="lg" className="px-10 py-7 text-xl font-bold bg-primary text-primary-foreground hover:opacity-90 rounded-2xl transition-all duration-300">
               <Shield className="mr-2 w-6 h-6" />
               Quero blindar minha operação
               <ArrowRight className="ml-2 w-6 h-6" />
             </Button>
-          </Link>
+          </a>
           <p className="text-white/40 mt-4 text-sm">
             Fale com um especialista em maturação
           </p>
