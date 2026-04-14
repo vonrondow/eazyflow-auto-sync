@@ -115,12 +115,12 @@ const AutomationDemo = () => {
             <p className="text-muted-foreground mb-6 text-lg">
               Comece a aquecer seus chips de forma inteligente e pare de perder números
             </p>
-            <Link to="/lead-form">
+            <a href="https://api.whatsapp.com/send/?phone=5533988803069&text=Ol%C3%A1%21+Quero+minimizar+os+riscos+de+banimentos+e+restri%C3%A7%C3%B5es+do+meu+chip.+Como+funciona+o+maturador+de+chips%3F&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="px-8 py-6 text-lg font-semibold">
                 Quero entrar na lista de espera
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
-            </Link>
+            </a>
           </div>
         </div>
       </div>

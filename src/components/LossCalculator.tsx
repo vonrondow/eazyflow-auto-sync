@@ -91,12 +91,12 @@ const LossCalculator = () => {
 
               {/* CTA */}
               <div className="mt-8 text-center">
-                <Link to="/lead-form">
+                <a href="https://api.whatsapp.com/send/?phone=5533988803069&text=Ol%C3%A1%21+Quero+minimizar+os+riscos+de+banimentos+e+restri%C3%A7%C3%B5es+do+meu+chip.+Como+funciona+o+maturador+de+chips%3F&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
                   <Button size="lg" className="px-8 py-6 text-lg font-bold bg-primary text-primary-foreground hover:opacity-90 rounded-xl">
                     Não quero perder mais dinheiro
                     <ArrowRight className="ml-2 w-5 h-5" />
                   </Button>
-                </Link>
+                </a>
               </div>
             </CardContent>
           </Card>
