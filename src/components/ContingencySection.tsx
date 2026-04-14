@@ -115,7 +115,7 @@ const ContingencySection = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-white mb-1">Nosso Compromisso</p>
-                  <p className="text-white/70">Seguimos as boas práticas do algoritmo para garantir <strong className="text-white/70">longevidade</strong>.</p>
+                  <p className="text-white/70">Seguimos as boas práticas do algoritmo e uma estratégia de contingência para aumentar a <strong className="text-white/70">longevidade</strong>.</p>
                 </div>
               </div>
             </div>
@@ -138,7 +138,7 @@ const ContingencySection = () => {
             </Button>
           </Link>
           <p className="text-white/40 mt-4 text-sm">
-            Vagas limitadas — entre na lista de espera
+            Fale com um especialista em maturação
           </p>
         </div>
       </div>
