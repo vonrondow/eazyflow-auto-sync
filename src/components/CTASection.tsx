@@ -30,7 +30,7 @@ const CTASection = () => {
               <p className="text-white/80 mb-6">
                 Garanta seu acesso antecipado ao aquecedor de chips mais inteligente do mercado
               </p>
-              <Link to="/lead-form">
+              <a href="https://api.whatsapp.com/send/?phone=5533988803069&text=Ol%C3%A1%21+Quero+minimizar+os+riscos+de+banimentos+e+restri%C3%A7%C3%B5es+do+meu+chip.+Como+funciona+o+maturador+de+chips%3F&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
                 <Button 
                   size="lg" 
                   className="w-full bg-white text-purple-700 hover:bg-gray-100 font-semibold py-4 text-lg"
@@ -38,7 +38,7 @@ const CTASection = () => {
                   Quero entrar na lista de espera
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
-              </Link>
+              </a>
               <p className="text-xs text-white/60 mt-3">🛡️ O WhatsApp reage a comportamentos, não ao chip</p>
             </CardContent>
           </Card>
