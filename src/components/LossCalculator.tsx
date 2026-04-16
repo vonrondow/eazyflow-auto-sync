@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const LossCalculator = () => {
   const [salesGoal, setSalesGoal] = useState<string>("30");
-  const [ticketMedio, setTicketMedio] = useState<string>("500");
+  const [ticketMedio, setTicketMedio] = useState<string>("1500");
 
   const salesNum = parseFloat(salesGoal) || 0;
   const ticketNum = parseFloat(ticketMedio) || 0;
