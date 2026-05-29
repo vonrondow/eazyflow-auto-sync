@@ -35,8 +35,7 @@ const Navbar = () => {
         <ul className="flex items-center gap-6 text-sm">
           <li>
             <a
-              href="#ebook"
-              onClick={(e) => handleClick(e, "ebook")}
+              href="/ebook"
               className="text-white/60 hover:text-white transition-colors"
             >
               Materiais
