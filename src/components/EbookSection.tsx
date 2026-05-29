@@ -158,27 +158,13 @@ const EbookSection = () => {
                 <Label htmlFor="cargo" className="text-white/80">
                   Cargo
                 </Label>
-                <Select
-                  value={cargo}
-                  onValueChange={(v) => {
-                    setCargo(v);
-                    setValue("cargo", v, { shouldValidate: true });
-                  }}
-                >
-                  <SelectTrigger
-                    id="cargo"
-                    className="bg-white/5 border-white/10 text-white focus:ring-primary"
-                  >
-                    <SelectValue placeholder="Selecione seu cargo" />
-                  </SelectTrigger>
-                  <SelectContent>
-                    {cargos.map((c) => (
-                      <SelectItem key={c} value={c}>
-                        {c}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
+                <Input
+                  id="cargo"
+                  placeholder="Seu cargo"
+                  autoComplete="organization-title"
+                  className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus-visible:ring-primary"
+                  {...register("cargo")}
+                />
                 {errors.cargo && (
                   <p className="text-xs text-destructive">{errors.cargo.message}</p>
                 )}
