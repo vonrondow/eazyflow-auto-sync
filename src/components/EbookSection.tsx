@@ -5,13 +5,6 @@ import * as z from "zod";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
 import { BookOpen, Download, Loader2, ShieldCheck } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
 import { useToast } from "@/hooks/use-toast";
@@ -32,7 +25,7 @@ const formatPhone = (value: string) => {
 
 const schema = z.object({
   nome: z.string().trim().min(2, "Informe seu nome completo").max(120),
-  cargo: z.string().trim().min(2, "Selecione ou informe seu cargo").max(80),
+  cargo: z.string().trim().min(2, "Informe seu cargo").max(80),
   empresa: z.string().trim().min(1, "Informe o nome da empresa").max(120),
   telefone: z
     .string()
@@ -43,20 +36,10 @@ const schema = z.object({
 
 type FormData = z.infer<typeof schema>;
 
-const cargos = [
-  "Gestor de Tráfego",
-  "Diretor(a)",
-  "Operações",
-  "Vendas / Comercial",
-  "Sócio(a) / Fundador(a)",
-  "Outros",
-];
-
 const EbookSection = () => {
   const { toast } = useToast();
   const [submitting, setSubmitting] = useState(false);
   const [phone, setPhone] = useState("");
-  const [cargo, setCargo] = useState("");
 
   const {
     register,
@@ -84,7 +67,6 @@ const EbookSection = () => {
 
       reset();
       setPhone("");
-      setCargo("");
       toast({
         title: "Tudo certo!",
         description: "Redirecionando para o seu material...",
@@ -176,27 +158,13 @@ const EbookSection = () => {
                 <Label htmlFor="cargo" className="text-white/80">
                   Cargo
                 </Label>
-                <Select
-                  value={cargo}
-                  onValueChange={(v) => {
-                    setCargo(v);
-                    setValue("cargo", v, { shouldValidate: true });
-                  }}
-                >
-                  <SelectTrigger
-                    id="cargo"
-                    className="bg-white/5 border-white/10 text-white focus:ring-primary"
-                  >
-                    <SelectValue placeholder="Selecione seu cargo" />
-                  </SelectTrigger>
-                  <SelectContent>
-                    {cargos.map((c) => (
-                      <SelectItem key={c} value={c}>
-                        {c}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
+                <Input
+                  id="cargo"
+                  placeholder="Seu cargo"
+                  autoComplete="organization-title"
+                  className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus-visible:ring-primary"
+                  {...register("cargo")}
+                />
                 {errors.cargo && (
                   <p className="text-xs text-destructive">{errors.cargo.message}</p>
                 )}
