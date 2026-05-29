@@ -67,7 +67,6 @@ const EbookSection = () => {
 
       reset();
       setPhone("");
-      setCargo("");
       toast({
         title: "Tudo certo!",
         description: "Redirecionando para o seu material...",
