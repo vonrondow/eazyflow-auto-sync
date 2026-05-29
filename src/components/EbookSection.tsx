@@ -5,13 +5,6 @@ import * as z from "zod";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
 import { BookOpen, Download, Loader2, ShieldCheck } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
 import { useToast } from "@/hooks/use-toast";
@@ -32,7 +25,7 @@ const formatPhone = (value: string) => {
 
 const schema = z.object({
   nome: z.string().trim().min(2, "Informe seu nome completo").max(120),
-  cargo: z.string().trim().min(2, "Selecione ou informe seu cargo").max(80),
+  cargo: z.string().trim().min(2, "Informe seu cargo").max(80),
   empresa: z.string().trim().min(1, "Informe o nome da empresa").max(120),
   telefone: z
     .string()
@@ -42,15 +35,6 @@ const schema = z.object({
 });
 
 type FormData = z.infer<typeof schema>;
-
-const cargos = [
-  "Gestor de Tráfego",
-  "Diretor(a)",
-  "Operações",
-  "Vendas / Comercial",
-  "Sócio(a) / Fundador(a)",
-  "Outros",
-];
 
 const EbookSection = () => {
   const { toast } = useToast();
