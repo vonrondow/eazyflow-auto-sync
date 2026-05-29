@@ -40,7 +40,6 @@ const EbookSection = () => {
   const { toast } = useToast();
   const [submitting, setSubmitting] = useState(false);
   const [phone, setPhone] = useState("");
-  const [cargo, setCargo] = useState("");
 
   const {
     register,
